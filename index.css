@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+/* Elimina márgenes y padding del body y otros elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-opciones {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color:  #A3A656;
+    justify-content: space-between;
+}
+
+.menu-opciones ul {
+    display: flex;
+    gap: 30px;
+    padding-left: 70px;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu-opciones ul li {
+    padding-top: 25px;
+}
+
+
+.menu-opciones ul li a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.menu-opciones ul li a:hover {
+    color: #FFFF00;
+}
+
+.mi-cuenta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mi-cuenta p:nth-of-type(2) {
+    margin-left: 30px;
+}
+
+.mi-cuenta p {
+    font-family: 'inter';
+    font-size: 13px;
+}
+
+.user-img {
+    height: 50px;
+}
+
+.spain-img {
+    height: 45px;
+}
+
+.arrow-img {
+    height: 12px;
+    margin-right: 10px;
+}
+
+
+/*PARA EL APARTADO DE INTRODUCCIÓN*/
+
+.apartado-introduccion {
+    background-image: url("images/main.png");
+    height: 660px;
+}
+
+.mensajes-introduccion {
+    padding-left: 140px;
+    padding-top: 120px;
+}
+
+.titulo {
+    font-family: 'Romanesco';
+    font-size: 96px;
+    padding-bottom: 25px;
+}
+
+.descripcion1 {
+    font-size: 32px;
+    font-family: 'inter';
+    font-weight: 600;
+    width: 500px;
+}
+
+.descripcion2 {
+    font-size: 32px;
+    font-family: 'inter';
+    font-weight: 600;
+}
+
+/*PARA EL APARTADO DE RESERVAS Y PROMOCIONES*/
+
+
+.apartado-reservas {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #F2F6F6;
+    align-items: center;
+}
+
+.apartado-reservas input {
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 60px;
+    border-style: none;
+}
+
+.apartado-reservas input::placeholder {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #9E9A9A;
+}
+
+.apartado-reservas p {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+/*PARA EL APARTADO DE SERVICIOS DE MASAJES*/
+
+
+.contenedor-servicios {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    column-gap: 134px;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
+
+.servicio-masaje {
+    width: 340px;
+    border-radius:15px 15px 0 0;
+}
+
+.tipo-masaje {
+    background-color: #A3A656;
+    margin: 0px;
+    font-family:  'Inter';
+    font-size: 32px;
+    color: #F2F6F6;
+    text-align: center;
+    font-weight: 600;
+    border-radius:15px 15px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.servicio-masaje img {
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.descripcion-masaje {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+
+.precio-tarjeta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio-tarjeta p {
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.precio-tarjeta button {
+    border-radius: 35px;
+    width: 150px;
+    background-color: #A3A656;
+    color: #F2F6F6;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.precio-tarjeta button:hover {
+    background-color:  #384001;
+}
+
+
+
+/*PARA EL APARTADO DE HACERSE SOCIO*/
+
+
+.titulo-planes {
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+.planes {
+    height: 770px;
+    background-color:#F2F6F6;
+}
+
+.contenedor-planes {
+    display: flex;
+    gap: 180px;
+    margin-left: 170px;
+}
+
+.contenedor-planes p {
+    text-align: center;
+    font-family: 'inter';
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contenedor-planes ul {
+    padding-left: 65px;
+    height: 70px;
+}
+
+.contenedor-planes ul li {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.oferta-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.borde-logo {
+  width: 255px;
+  height: 255px;
+  border: 11px solid #384001;
+  border-radius: 50%;
+  overflow: hidden; /* Recorta lo que se sale del círculo */
+  display: flex; /* Habilita alineación con Flexbox */
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.borde-logo img {
+    object-fit: cover;
+
+}
+
+.oferta-plan button {
+    width: 280px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    color: white;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.oferta-plan button:hover {
+    background-color: #384001;
+}
+
+
+
+/*PARA EL APARTADO DE FOOTER O REDES SOCIALES Y MÁS INFO*/
+
+footer {
+    background-color: #384001;
+    display: flex;
+    height: 97px;
+    justify-content: space-between;
+}
+
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 85px;
+    margin-left: 70px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color:  #A3A656;
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #FFFF00;
+}
+
+footer ul li {
+    margin-top: 35px;
+}
+
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.redes-sociales p {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 400;
+    color:  #A3A656;
+}
+
+footer img {
+    height: 35px;
+}
